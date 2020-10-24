@@ -1,0 +1,13 @@
+.image-box {
+  display: flex;
+  align-items: center;
+  height: 350px;
+
+  .web-img {
+    width: 400px;
+  }
+
+  .nat-img {
+    width: 480px;
+  }
+}

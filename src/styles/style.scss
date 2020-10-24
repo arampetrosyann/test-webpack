@@ -1,0 +1,31 @@
+@import "./imageBox.scss";
+@import "./font.scss";
+
+$text-blue: rgb(5, 53, 82);
+$background-borwn: rgb(165, 42, 41);
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pack-text {
+  color: $text-blue;
+  text-align: center;
+  text-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+  font-family: KronaOne;
+}
+
+.box {
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  background-color: $background-borwn;
+}
